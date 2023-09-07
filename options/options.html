@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Config - Hyde</title>
+
+    <style>
+        .white-list {
+            margin-bottom: 2rem;
+        }
+
+        input[type=text] {
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Configuration for Uri-Blocker</h1>
+
+    <main>
+        <section class="white-list">
+            <h1>White List</h1>
+            <button class="add-new" data-which="white">Add New Rule</button>
+        </section>
+
+        <section class="black-list">
+            <h1>Black List</h1>
+            <button class="add-new" data-which="black">Add New Rule</button>
+        </section>
+
+    </main>
+
+    <hr>
+    <button class="save-all">Save All</button>
+    <script src="./options.js"></script>
+</body>
+</html>
